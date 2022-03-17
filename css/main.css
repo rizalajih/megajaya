@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    padding: 1rem;
+    font-family: 'Shrikhand', cursive;
+
+    background-color: #0c0a0a;
+    background-image: url(https://wallpaperaccess.com/full/1844074.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+  
+
+    color: #181d25;
+    min-height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    padding: 0px;
+    width: 213px;
+    height: 213px;
+    border-radius: 50%;
+    margin-bottom: 2.5rem;
+    border: 3px solid #f6f6f6;
+    box-sizing: content-box;
+
+}
+
+header {
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+header p {
+    font-weight: 300;
+    font-size: 1.25rem;
+    margin-bottom: 0.25rem;
+    color: #525252;
+}
+
+header h1 {
+    font-weight: lighter;
+    font-size: 70px;
+    line-height: 100px;
+    color: ivory;
+    text-shadow: 5px 5px black;
+}
+
+nav {
+    width: 100%;
+    display: inline-block;
+    max-width: 190px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 1.25rem;
+    color: #fff;
+
+    box-shadow: 0px 2px 2px 2px var(--link-color);
+    background-color: var(--link-color);
+
+    transition: box-shadow 0.5s;
+}
+
+a:hover {
+    box-shadow: 0px 0.5rem 1.5rem 0rem var(--link-color);
+}
+
+i {
+    margin-right: 0.5rem;
+    font-size: 1.5rem;
+}
+
+#linkedin {
+    --link-color: #0e76a8;
+}
+
+#whatsapp {
+    --link-color: #067b71;
+}
+
+#instagram {
+    --link-color: #e1206c;
+}
+
+#twitter {
+    --link-color: #1d9bf0;
+}
+
+#tokopedia {
+    --link-color: #03ac0e;
+}
+
+#facebook {
+    --link-color: #1877f2;
+}
