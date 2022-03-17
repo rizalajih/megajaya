@@ -10,10 +10,9 @@ html {
 
 body {
     padding: 1rem;
-    font-family: 'Shrikhand', cursive;
-
+    font-family: 'Bree Serif', serif;
     background-color: #0c0a0a;
-    background-image: url(https://wallpaperaccess.com/full/1844074.jpg);
+    background-image: url(/asset/WhatsApp\ Image\ 2022-03-17\ at\ 16.41.29.jpeg);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -55,8 +54,8 @@ header h1 {
     font-weight: lighter;
     font-size: 70px;
     line-height: 100px;
-    color: ivory;
-    text-shadow: 5px 5px black;
+    color: black;
+    /* text-shadow: 5px 5px burlywood */
 }
 
 nav {
