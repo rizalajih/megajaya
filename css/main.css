@@ -10,9 +10,9 @@ html {
 
 body {
     padding: 1rem;
-    font-family: 'Bree Serif', serif;
+    font-family: 'Roboto', sans-serif;
     background-color: #0c0a0a;
-    background-image: url(/asset/WhatsApp\ Image\ 2022-03-17\ at\ 16.41.29.jpeg);
+    background-image: url(/asset/WhatsApp\ Image\ 2022-03-21\ at\ 12.18.02.jpeg);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -52,9 +52,9 @@ header p {
 
 header h1 {
     font-weight: lighter;
-    font-size: 35itpx;
+    font-size: 55px;
     line-height: 60px;
-    color: black;
+    color: #518951;
     /* text-shadow: 5px 5px burlywood */
 }
 
@@ -108,25 +108,52 @@ i {
 }
 
 #Storemaps {
-    --link-color: #161b22;
+    --link-color: #5ac797;
+}
+
+#Storemaps img {
+    height: 30px;
+    width: 30px;
+    border-radius: 0px;
+    border: 0px;
+    margin-bottom: 0px;
+    margin-right: 10px;
 }
 
 #whatsapp {
-    --link-color: #161b22;
+    --link-color: #5a8951;
+}
+
+#whatsapp img {
+    height: 30px;
+    width: 30px;
+    border-radius: 0px;
+    border: 0px;
+    margin-bottom: 0px;
+    margin-right: 10px;
 }
 
 #instagram {
-    --link-color: #161b22;
+    --link-color: #518951;
 }
 
 #twitter {
-    --link-color: #161b22;
+    --link-color: #518951;
 }
 
 #tokopedia {
-    --link-color: #161b22;
+    --link-color: #ff7a8e
+}
+#tokopedia img {
+    height: 35px;
+    width: 35px;
+    border-radius: 0px;
+    border: 0px;
+    margin-bottom: 0px;
+    margin-right: 10px;
 }
 
 #facebook {
-    --link-color: #161b22;
+    --link-color: #518951;
 }
+
